@@ -13,7 +13,7 @@ async def tag_all_users(_,message):
 
     replied = message.reply_to_message  
     if len(message.command) < 2 and not replied:
-        await message.reply_text("↢ قُم بالرد على الرسالة وبسويلك تاك 🤍. ") #ممنوع الخمط صاحب الملف @WZAERE
+        await message.reply_text("↢ قُم بالرد على الرسالة وبسويلك تاك 🤍. ") 
         return                  
     if replied:
         SPAM_CHATS.append(message.chat.id)      
@@ -62,7 +62,7 @@ async def cancelcmd(_, message):
             SPAM_CHATS.remove(chat_id)
         except Exception:
             pass   
-        return await message.reply_text("↢ أبشر وقفت المنشن")     #ممنوع الخمط صاحب الملف @WZAERE
+        return await message.reply_text("↢ أبشر وقفت المنشن")     
                                      
     else :
         await message.reply_text("↢ تم عمل منشن بنجاح، إذا تريد تسوي مرة أخرى عيد تكرار الأمر")  
