@@ -11,10 +11,10 @@ from AarohiX import (Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app)
 )
 async def maker(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://te.legra.ph/file/e0e39b327dac30ee715dc.jpg",
+        photo=f"https://telegra.ph/file/8673237ea2693a274380c.jpg",
         caption=f"""**- أوامر التشغيل اتبع مايلي
         
- [— — — — — — — — — —](https://te.legra.ph/file/e0e39b327dac30ee715dc.jpg)
+ [— — — — — — — — — —](https://telegra.ph/file/8673237ea2693a274380c.jpg)
 ◇︰ تشغيل أو شغل : لبدء تشغيل السورة أو الأنشودة الإسلامية
 
 ◇︰ بينج : لقياس سرعة النت في البوت .
@@ -31,13 +31,13 @@ async def maker(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "‹ السورس ›", url=f"https://t.me/Tepthon"),
+                        "‹ السورس ›", url=f"https://t.me/veevvw"),
                     InlineKeyboardButton(
-                        "‹ الدعم ›", url=f"https://t.me/Tepthon_Help"),
+                        "‹ الدعم ›", url=f"https://t.me/sedthon_Help"),
                 ],
                 [
                    InlineKeyboardButton(
-                        "‹ المطور ›", url=f"https://t.me/PPF22"),
+                        "‹ المطور ›", url=f"https://t.me/NUNUU"),
                 ],       
             ]
         ),
@@ -49,7 +49,7 @@ async def maker(client: Client, message: Message):
 )
 async def maker(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://te.legra.ph/file/e0e39b327dac30ee715dc.jpg",
+        photo=f"https://telegra.ph/file/8673237ea2693a274380c.jpg",
         caption=f"""**
 - أوامر التفعيل اتبع ما يلي :
 
@@ -64,13 +64,13 @@ async def maker(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "‹ السورس ›", url=f"https://t.me/Tepthon"),
+                        "‹ السورس ›", url=f"https://t.me/veevvw"),
                     InlineKeyboardButton(
-                        "‹ الدعم ›", url=f"https://t.me/Tepthon_Help"),
+                        "‹ الدعم ›", url=f"https://t.me/sedthon_Help"),
                 ],
                 [
                    InlineKeyboardButton(
-                        "‹ المطور ›", url=f"https://t.me/PPF22"),
+                        "‹ المطور ›", url=f"https://t.me/NUNUU"),
                 ],       
             ]
         ),
@@ -82,7 +82,7 @@ async def maker(client: Client, message: Message):
 )
 async def maker(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://te.legra.ph/file/e0e39b327dac30ee715dc.jpg",
+        photo=f"https://telegra.ph/file/8673237ea2693a274380c.jpg",
         caption=f"""**
 -  أوامر إضافيـة :
  — — — — — — — — — — 
@@ -131,13 +131,13 @@ async def maker(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "‹ السورس ›", url=f"https://t.me/Tepthon"),
+                        "‹ السورس ›", url=f"https://t.me/veevvw"),
                     InlineKeyboardButton(
-                        "‹ الدعم ›", url=f"https://t.me/Tepthon_Help"),
+                        "‹ الدعم ›", url=f"https://t.me/sedthon_Help"),
                 ],
                 [
                    InlineKeyboardButton(
-                        "‹ المطور ›", url=f"https://t.me/PPF22"),
+                        "‹ المطور ›", url=f"https://t.me/nunuu"),
                 ],       
             ]
         ),
