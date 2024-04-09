@@ -19,7 +19,7 @@ from pyrogram.errors import (
     UserNotParticipant,
 )
 
-tz = pytz.timezone('Africa/Cairo')
+tz = pytz.timezone('Asia/Iraq')
 
 chat = []
 
@@ -105,7 +105,7 @@ async def azkar():
      prayer = prayer_time()
      await kill()
      for i in chat:
-       await app.send_message(i, f"**حان الان وقت اذان {prayer} بالتوقيت المحلي للقاهرة 🥰♥️**")
+       await app.send_message(i, f"**حان الان وقت اذان {prayer} بالتوقيت المحلي بغداد 🥰♥️**")
        await play(i)
      await asyncio.sleep(174)
      await kill()
