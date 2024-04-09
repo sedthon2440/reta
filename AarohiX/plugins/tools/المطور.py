@@ -9,12 +9,12 @@ import config
 )
 async def mmmezat(client, message):
     await message.reply_text(
-        f"""مرحبًا بك عزيزي {message.from_user.mention} في بوت فهد\nللحصول على الأوامر راسل البوت 🤍.""",
+        f"""مرحبًا بك عزيزي {message.from_user.mention} في بوت ريتا\nللحصول على الأوامر راسل البوت 🤍.""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "للدخول للبوت", url=f"https://t.me/FH4FBot"
+                        "للدخول للبوت", url=f"https://t.me/fzc4bot"
                     ),
                 ],
                 [
@@ -31,18 +31,18 @@ async def mmmezat(client, message):
 )
 async def maker(client: Client, message: Message):
     await message.reply_photo(
-        photo="https://telegra.ph/file/3c4a1eb0ceac848e26bc8.jpg",
-        caption="• Name Bot ↦ فهد \n ━━━━━━━━━━━━ \n • Dev ↦  مُحمـد 🇵🇸. \n • Bio ↦ أشعر بالفخر لأني مسلم، ولغـتي اللغـة العربيـة 🕌 - @Tepthon ، @PPYNY #فلسطين_حُرة 🇵🇸 .",
+        photo="https://telegra.ph/file/53b8b733814e69a3db022.jpg",
+        caption="• Name Bot ↦ ريتا \n ━━━━━━━━━━━━ \n • اެݪ تِــاެࢪيٰــخَ ¦ BiLaL \n • Bio ↦ أشعر بالفخر لأني شيعي، ولغـتي اللغـة العربيـة 🕌 - @veevvw ، @yll6ll  .",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "مُحمـد 🇵🇸", url=f"tg://openmessage?user_id={config.OWNER_ID}"
+                        "بلال 🇵🇸", url=f"tg://openmessage?user_id={config.OWNER_ID}"
                     ),
                 ],
                 [
                     InlineKeyboardButton(
-                        " تحديثـات فهد 🇵🇸🤍 .", url=config.SUPPORT_CHAT
+                        " تحديثـات ريتا 🇵🇸🤍 .", url=config.SUPPORT_CHAT
                     ),
                 ],
             ]
