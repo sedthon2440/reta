@@ -35,7 +35,7 @@ from config import BANNED_USERS, lyrical
             "playforce",
             "vplayforce",
             "cplayforce",
-            "cvplayforce",
+            "شغل",
         ]
     )
     & ~BANNED_USERS
