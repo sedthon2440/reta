@@ -34,7 +34,7 @@ async def get_group_call(
     await app.send_message(f"**No group call Found** {err_msg}")
     return False
 
-@app.on_message(filters.regex("^افتح الكول$"))
+@app.on_message(filters.regex("^افتح اتصال$"))
 async def start_group_call(c: Client, m: Message):
     chat_id = m.chat.id
     assistant = await get_assistant(chat_id)
@@ -93,7 +93,7 @@ async def start_group_call(c: Client, m: Message):
         await msg.edit_text("↢ تم تشغيل المحادثة الصوتية")
       except:
          await msg.edit_text("↢ يجب أن يكونا البوت والمساعد يمتلكان الصلاحيات الكاملة .")
-@app.on_message(filters.regex("^اقفل الكول$"))
+@app.on_message(filters.regex("^سد الاتصال$"))
 async def stop_group_call(c: Client, m: Message):
     chat_id = m.chat.id
     assistant = await get_assistant(chat_id)
