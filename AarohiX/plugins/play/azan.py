@@ -19,7 +19,7 @@ from pyrogram.errors import (
     UserNotParticipant,
 )
 
-tz = pytz.timezone('Asia/Iraq')
+tz = pytz.timezone('Africa/Cairo')
 
 chat = []
 
